@@ -2,14 +2,113 @@
 <selfclose attribute="double quotes to surround value"/> -->
 
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    
+<html lang="en"> 
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    
-</body>
+  <header>
+    <h1>DFA Learn HTML/CSS</h1>
+    <form>
+      <input class="rounded"
+      type = "email" 
+      name = "email" 
+      id = "email" 
+      placeholder = "Enter email..."
+      />
+      <input class="rounded"
+      type = "password"
+      name = "password"
+      id = "password"
+      placeholder = "Enter password..."
+      />
+      <button class="rounded" type = "submit">Login</button>
+    </form>
+  </header>
+  
+  <div class="hero">
+    <h2>Facebook helps you to connect and share with the people in your life.</h2>
+    <img src="./images/people-network.png" alt="Facebook People Network IMG">
+  </div>
+  
+  <div id = "form">
+    <h1>Create an account</h1>
+    <h2>It's free and always will be</h2>
+    <form>
+        <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+        <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+        <input type="text" name="phone-number-email" id="phone-number-email" placeholder="Mobile number or Email" required>
+        <input type="password" name="password" id="password" placeholder="New Password" required>
+        <div id="birthday-input">
+         
+          <p id="birthdayInput">Birthday</p>
+          <select class="day">
+            
+            <option value="">1</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
 
+          </select>
+          <select class="month">
+            <option value="">Jan</option>  
+            <option value="2">Feb</option>
+            <option value="3">Mar</option>
+            <option value="4">Apr</option>
+            <option value="5">May</option>
+            <option value="6">Jun</option>
+            <option value="7">Jul</option>
+            <option value="8">Aug</option>
+            <option value="9">Sep</option>
+            <option value="10">Oct</option>
+            <option value="11">Nov</option>
+            <option value="12">Dec</option>
+          </select>
+        </select>
+        <select class="Year">
+          <option value="">2004</option>
+          <option value="1">2001</option>
+          <option value="2">2002</option>
+          <option value="3">2003</option>
+          <option value="4">2004</option>
+          <option value="5">2005</option>
+          <option value="6">2006</option>
+          <option value="7">2007</option>
+          <option value="8">2008</option>
+        </select>
+          
+        </div>        
+        
+        <div id="gender">
+            <label>
+                <input type="radio" name="gender" value="Female" required> Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Male" required> Male
+            </label>
+        </div>
+   
+                <p id="terms">
+                    By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.
+                </p>
+                <button type="submit" id="signup-button">Sign Up</button>
+            </form>
+        </div>
+        </div>
+        </div>
+    </body>
 </html>
+
